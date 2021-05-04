@@ -6,8 +6,6 @@ const app = express();
 //Para usar o JSON na aplicação
 app.use(express.json());
 
-//localhost:3333
-
 //GET
 app.get("/courses", (req, res) => {
   //Query params
